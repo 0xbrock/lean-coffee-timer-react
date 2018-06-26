@@ -103,20 +103,20 @@ class CountdownTimer extends Component {
             { !timerAlert && 
             <div className="list-flex">
               {timer && 
-              <button className="btn btn-warning" onClick={() => this.stopTimer1()}>Pause&nbsp;&nbsp;<FontAwesomeIcon icon={faPause} /></button>
+              <button className="btn btn-lg btn-warning" onClick={() => this.stopTimer1()}>Pause&nbsp;&nbsp;<FontAwesomeIcon icon={faPause} /></button>
               }
               { !timer && 
-              <button className="btn btn-success" onClick={() => this.startTimer1()}>Start&nbsp;&nbsp;<FontAwesomeIcon icon={faPlay} /></button>
+              <button className="btn btn-lg btn-success" onClick={() => this.startTimer1()}>Start&nbsp;&nbsp;<FontAwesomeIcon icon={faPlay} /></button>
               }
-              <button className="btn btn-danger" onClick={() => this.resetTimer1()}>Reset&nbsp;&nbsp;<FontAwesomeIcon icon={faUndo} /></button>
+              <button className="btn btn-lg btn-danger" onClick={() => this.resetTimer1()}>Reset&nbsp;&nbsp;<FontAwesomeIcon icon={faUndo} /></button>
             </div>
             }
             { timerAlert && 
               <div className="list-flex">
                 { !forceNext &&
-                <button className="btn btn-warning" onClick={() => this.decrementStart1()}>{countdown - decrement} More?&nbsp;&nbsp;<FontAwesomeIcon icon={faPlay} /></button>
+                <button className="btn btn-lg btn-warning" onClick={() => this.decrementStart1()}>{countdown - decrement} More?&nbsp;&nbsp;<FontAwesomeIcon icon={faPlay} /></button>
                 }
-                <button className="btn btn-danger" onClick={() => this.resetTimer1()}>New Topict&nbsp;&nbsp;<FontAwesomeIcon icon={faUndo} /></button>
+                <button className="btn btn-lg btn-danger" onClick={() => this.resetTimer1()}>New Topict&nbsp;&nbsp;<FontAwesomeIcon icon={faUndo} /></button>
               </div>
             }
           </div>
