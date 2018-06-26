@@ -1,0 +1,11 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:regular,bold&subset=latin,latin-ext');
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body, h1 {
+  font-family: 'Open Sans', sans-serif;
+}

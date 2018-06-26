@@ -1,0 +1,90 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #6f4e37 /* #222*/;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@-webkit-keyframes swing {
+  0% { -webkit-transform: rotate(10deg); }
+  50% { -webkit-transform: rotate(-10deg); }
+  100% {-webkit-transform: rotate(10deg); }
+}
+
+@keyframes swing {
+  0% { transform: rotate(10deg); }
+  50% { transform: rotate(-10deg); }
+  100% { transform: rotate(10deg); }
+}
+
+.cherry-swing {
+  -webkit-transform-origin: 50% 100%;
+  transform-origin: 50% 100%;
+  -webkit-animation: swing 3.5s ease-in-out forwards infinite;
+  animation: swing 3.5s ease-in-out forwards infinite;
+}
+
+.countdown {
+  padding-top: 24px;
+  padding-bottom: 12px;
+  font-size: 3em;
+}
+.btn-list, .btn-list, .config {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.list-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list-flex button {
+  margin: 5px;
+}
+
+@-webkit-keyframes Gradient {
+	0% { background-position: 0% 50% }
+	50% {	background-position: 100% 50%	}
+	100% { background-position: 0% 50% }
+}
+
+@-moz-keyframes Gradient {
+	0% { background-position: 0% 50% }
+	50% {	background-position: 100% 50%	}
+	100% { background-position: 0% 50% }
+}
+
+@keyframes Gradient {
+	0% { background-position: 0% 50% }
+	50% {	background-position: 100% 50%	}
+	100% { background-position: 0% 50% }
+}
+
+.countdownTimer {
+  padding-top: 24px;
+}
+
+.countdownTimerInfo {
+  padding-top: 24px;
+  padding-bottom: 12px;
+  color: #fff;
+	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 45s ease infinite;
+	-moz-animation: Gradient 45s ease infinite;
+	animation: Gradient 45s ease infinite;
+}
