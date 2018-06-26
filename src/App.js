@@ -27,7 +27,7 @@ class App extends Component {
         <CountdownTimer />
         <hr />
         <footer>
-          &copy; {new Date().getFullYear()} 0xbrock | Switch to the  original AngularJS <a href="https://0xbrock.github.io/LeanCoffeeTimer/">Lean Coffee Timer</a>
+          &copy; {new Date().getFullYear()} 0xbrock | <a href="https://github.com/0xbrock/lean-coffee-timer-react" class="btn">View on GitHub</a> | Switch to the  original AngularJS <a href="https://0xbrock.github.io/LeanCoffeeTimer/">Lean Coffee Timer</a>
         </footer>
       </div>
     );
